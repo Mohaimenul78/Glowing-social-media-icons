@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#262626;
+}
+
+.box ul{
+    display: flex;
+}
+
+.box ul li{
+    width: 60px ;
+    height: 60px;
+    margin-left: 10px;
+    background-color:#171515;
+    border-radius: 50%;
+    transition:.5s;
+}
+
+.box ul li a{
+    width: 100%;
+    height: 100%;
+    color:#666;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box ul li:nth-child(1):hover{
+    box-shadow: 0 0 10px #395197, 0 0 40px #395197, 0 0 80px #395197;
+}
+
+.box ul li:nth-child(1):hover a{
+    color:#395197;
+}
+
+.box ul li:nth-child(2):hover{
+    box-shadow: 0 0 10px #00a8ff, 0 0 40px #00a8ff, 0 0 80px #00a8ff;
+}
+
+.box ul li:nth-child(2):hover a{
+    color:#00a8ff;
+}
+
+.box ul li:nth-child(3):hover{
+    box-shadow: 0 0 10px #01b456, 0 0 40px #01b456, 0 0 80px #01b456;
+}
+
+.box ul li:nth-child(3):hover a{
+    color:#01b456;
+}
+
+.box ul li:nth-child(4):hover{
+    box-shadow: 0 0 10px #d40c17, 0 0 40px #d40c17, 0 0 80px #d40c17;
+}
+
+.box ul li:nth-child(4):hover a{
+    color:#d40c17;
+}
+
+.box ul li:nth-child(5):hover{
+    box-shadow: 0 0 10px #bd269e, 0 0 40px #bd269e, 0 0 80px #bd269e;
+}
+
+.box ul li:nth-child(5):hover a{
+    color:#bd269e;
+}
+
